@@ -5,6 +5,8 @@ applications:
   - route: timesheets-pal-hot-tea.cfapps.io
   memory: 1G
   instances: 1
+  env:
+    spring.profiles.active: cloud
   services:
   - tracker-timesheets-database
   - tracker-service-registry

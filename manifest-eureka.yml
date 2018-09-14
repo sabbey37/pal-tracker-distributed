@@ -1,0 +1,8 @@
+---
+applications:
+- name: eureka-server
+  memory: 2G
+  instances: 1
+  routes:
+    - route: eureka-pal-hot-tea.cfapps.io
+  path: ./platform-services/eureka-server/build/libs/eureka-server.jar

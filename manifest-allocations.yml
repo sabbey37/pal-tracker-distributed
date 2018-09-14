@@ -5,6 +5,8 @@ applications:
   - route: allocations-pal-hot-tea.cfapps.io
   memory: 1G
   instances: 1
+  env:
+    spring.profiles.active: cloud
   services:
   - tracker-allocations-database
   - tracker-service-registry
