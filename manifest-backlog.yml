@@ -6,7 +6,6 @@ applications:
   memory: 1G
   instances: 1
   env:
-    spring.profiles.active: cloud
     GRANT_TYPE: client_credentials
   services:
   - tracker-backlog-database
